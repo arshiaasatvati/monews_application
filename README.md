@@ -1,6 +1,14 @@
 # monews_application
 
-A new Flutter project.
+Hey GitHub 
+Today i released my new application with flutter
+this is a news app that i found on figma and created
+take a look to this screen record of application:
+
+
+
+https://github.com/arshiaasatvati/monews_application/assets/138293483/4397b43d-a570-46e4-9ee9-2ce0f93b4855
+
 
 ## Getting Started
 
