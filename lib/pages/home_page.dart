@@ -114,6 +114,12 @@ class _HomePageState extends State<HomePage> {
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      ClipRRect(
+                        child: Container(
+                          child: Image.asset('images/flash_icon.png'),
+                        ),
+                      ),
+                      SizedBox(width: 3),
                       Text(
                         'پیشنهاد مونیوز',
                         style: TextStyle(
@@ -123,12 +129,6 @@ class _HomePageState extends State<HomePage> {
                           color: kGrey,
                         ),
                       ),
-                      SizedBox(width: 3),
-                      ClipRRect(
-                        child: Container(
-                          child: Image.asset('images/flash_icon.png'),
-                        ),
-                      )
                     ],
                   ),
                   Spacer(),

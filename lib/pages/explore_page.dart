@@ -45,7 +45,7 @@ class _ExplorePageState extends State<ExplorePage> {
               padding: EdgeInsets.only(top: 24),
             ),
             SliverToBoxAdapter(
-              child: _getLeaderPostList(),
+              child: _getLeaderPosts(),
             ),
             SliverPadding(
               padding: EdgeInsets.only(top: 55),
@@ -53,6 +53,15 @@ class _ExplorePageState extends State<ExplorePage> {
           ],
         ),
       ),
+    );
+  }
+
+  Widget _getLeaderPosts() {
+    return Column(
+      children: [
+        _getLeaderSuggest(),
+        _getLeaderPostList(),
+      ],
     );
   }
 
@@ -204,7 +213,7 @@ class _ExplorePageState extends State<ExplorePage> {
             ),
             child: Center(
               child: Text(
-                'ورزشی',
+                'پزشکی',
                 style: TextStyle(
                   color: kWhite,
                   fontSize: 12,
